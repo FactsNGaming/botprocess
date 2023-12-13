@@ -23,7 +23,7 @@ function makeid(length) {
 }
 
 const client = new Discord.Client()
-client.login('ODczMjQ1MTkzODA0MDcwOTIz.GZCWJs.ewbrICZagKM55GBbtPByN373U0j2trdc8W253E')
+client.login('ODczMjQ1MTkzODA0MDcwOTIz.GxIuT9.TnzIJ4kuao-5jXOljMaHhogUnUo6qTfJemUF6U')
 const channel = client.channels.cache.get('914103791958253628');
 console.log(channel)
 client.on('ready',() => {
