@@ -26,4 +26,7 @@ const client = new Discord.Client()
 client.login('ODczMjQ1MTkzODA0MDcwOTIz.G9I6sj.KObg51eTwBA9VlOHmXm0LWlQLT0CQlo5EtyB1s')
 const channel = client.channels.cache.get('914103791958253628');
 console.log(channel)
-setInterval(() => {  client.channels.cache.get(`914103791958253628`).send(makeid(9))}, 3000)
+client.on('ready',() => {
+  
+  setInterval(() => {  client.channels.cache.get(`914103791958253628`).send(makeid(9))}, 3000)
+})
